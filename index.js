@@ -14,7 +14,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('I HAVE STARTED (:!');
-client.user.setActivity('People', { type: 'WATCHING' });
+client.user.setActivity('You', { type: 'WATCHING' });
 });
 client.on('shardError', error => {
 	 var data =`A websocket connection encountered an error: ${error}`
